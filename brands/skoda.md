@@ -1,4 +1,4 @@
 ---
 layout: brand
-name: Skoda
+title: Skoda
 ---

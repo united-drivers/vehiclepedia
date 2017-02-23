@@ -1,5 +1,5 @@
 ---
 layout: car
-name: Leaf
+title: Leaf
 brand: nissan
 ---

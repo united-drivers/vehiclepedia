@@ -1,5 +1,5 @@
 ---
 layout: car
-name: Prius +
+title: Prius +
 brand: toyota
 ---

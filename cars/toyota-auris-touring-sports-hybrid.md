@@ -1,5 +1,5 @@
 ---
 layout: car
-name: Auris Touring Sports Hybrid
+title: Auris Touring Sports Hybrid
 brand: toyota
 ---

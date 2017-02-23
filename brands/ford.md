@@ -1,6 +1,6 @@
 ---
 layout: brand
-name: Ford
+title: Ford
 founded: June 16, 1903
 website: www.ford.com
 country: us

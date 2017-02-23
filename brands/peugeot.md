@@ -1,5 +1,5 @@
 ---
 layout: brand
-name: Peugeot
+title: Peugeot
 country: fr
 ---

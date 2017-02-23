@@ -1,5 +1,5 @@
 ---
 layout: car
-name: Tipo
+title: Tipo
 brand: fiat
 ---

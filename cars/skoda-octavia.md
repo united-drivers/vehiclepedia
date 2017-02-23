@@ -1,5 +1,5 @@
 ---
 layout: car
-name: Octavia
+title: Octavia
 brand: skoda
 ---

@@ -1,4 +1,4 @@
 ---
 layout: brand
-name: Nissan
+title: Nissan
 ---

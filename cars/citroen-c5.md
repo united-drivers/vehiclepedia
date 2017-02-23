@@ -1,5 +1,5 @@
 ---
 layout: car
-name: C5
+title: C5
 brand: citroen
 ---

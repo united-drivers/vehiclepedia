@@ -1,5 +1,5 @@
 ---
 layout: brand
-name: Fiat
+title: Fiat
 country: it
 ---

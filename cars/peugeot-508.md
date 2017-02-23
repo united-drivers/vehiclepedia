@@ -1,5 +1,5 @@
 ---
 layout: car
-name: 508
+title: 508
 brand: peugeot
 ---
