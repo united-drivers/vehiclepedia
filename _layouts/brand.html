@@ -9,5 +9,15 @@
       <li>{{entry[0]}}: {{entry[1]}}</li>
       {% endfor %}
     </ul>
+    <ul>
+      {% for entry in site.pages %}
+      {% if entry.layout == "car"  %}
+      {% capture tmp %}{{entry.brand}}.md{% endcapture %}
+      {% if tmp == page.name %}
+      <li><a href="{{entry.url}}">{{entry.title}}</a></li>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </ul>
   </body>
 </html>
