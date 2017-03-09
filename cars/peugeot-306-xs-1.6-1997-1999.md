@@ -1,13 +1,13 @@
 # General Specifications
----
-Last_new_price: € 15.424
-Carbody: hatchback
-Doors_number: 3
-Transmission_type: manual
-Seating_capacity: 5
-Car_production_year: 1997
-End_year: 1999
----
+caracteristic | value
+-- | --
+Last new price | € 15.424
+Carbody | hatchback
+Doors number | 3
+Transmission type | manual
+Seating capacity | 5
+Car production year | 1997
+End year | 1999
 
 # Drive
 caracteristic | value
