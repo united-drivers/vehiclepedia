@@ -1,3 +1,14 @@
+---
+layout: car
+brand: peugeot
+title: 306-xs-1.6-1997-1999
+model: 306
+version: xs
+engine: 1.6
+year_from: 1997
+year_to: 1999
+---
+
 # General Specifications
 caracteristic | value
 -- | --
