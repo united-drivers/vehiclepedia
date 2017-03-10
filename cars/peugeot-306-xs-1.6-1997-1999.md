@@ -1,82 +1,83 @@
 ---
+# Identifiers
 layout: car
 brand: peugeot
 title: 306-xs-1.6-1997-1999
 model: 306
 version: xs
 engine: 1.6
-year_from: 1997
-year_to: 1999
----
+
+# History
+history:
+  production:
+    from: 1997
+    to: 1999
 
 # General Specifications
-| caracteristic       | value     |
-|---------------------|-----------|
-| Last new price      | € 15.424  |
-| Carbody             | hatchback |
-| Doors number        | 3         |
-| Transmission type   | manual    |
-| Seating capacity    | 5         |
-| Car production year | 1997      |
-| End year            | 1999      |
-
-# Drive
-| caracteristic    | value         |
-|------------------|---------------|
-| Wheel drive      | front         |
-| Engine type      | fuel engine   |
-| Fuel             | petrol        |
-| Total max power  | 66 Kw (90 Hp) |
-| Total max torque | 135 Nm        |
+doors: 3
+seating_capacity: 5
+transmission_type: manual
+carbody: hatchback
+last_new_price:
+  eur: 15424
+wheel_drive: front
+engine_type: fuel
+fuel: petrol
 
 # Fuel engine
-| caracteristic       | value                |
-|---------------------|----------------------|
-| Cylinders           | 4, in line           |
-| Valves per cylinder | 2                    |
-| Displacement        | 1587 cc              |
-| Bore x stroke       | 78,5 x 82,0 mm       |
-| Compression ratio   | 9,6 / 1              |
-| Max power           | 66 kW (90 hp)        |
-| Max power @ rpm     | 5600 rpm             |
-| Max torque          | 135 Nm               |
-| Max torque @ rpm    | 3000 rpm             |
-| Fuel delivery       | multipoint injection |
-| Engine type         | ohc                  |
-| Turbo               | no                   |
-| Catalyst            | regular              |
-| Fuel tank           | 60 l                 |
-
-# Electric engine
-caracteristic | value
--- | --
+engine:
+  cylinders:
+    quantity: 4
+    type: inline
+  valves_per_cylinder: 2
+  displacement:
+    cc: 1587
+  bore_x_stroke: "78,5 x 82,0mm"
+  compression_ratio: "9,6 / 1"
+  max_power:
+    kw: 66
+    hp: 90
+    rpm: 5600
+  max_torque:
+    nm: 135
+    rpm: 3000
+  fuel_delivery: multipoint injection
+  type: ohc
+  turbo: no
+  catalyst: regular
+  fuel_tank:
+    l: 60
 
 # Performance
-caracteristic | value
--- | --
-Top speed | 178 km/h
-Acceleration 0-100 km/h | 13,5 s
-Urban consumption | 10,4 l/100km
-Urban consumption kms | 1 op 9,6
-Extra-urban consumption | 6,2 l/100km
-Extra-urban consumption kms | 1 op 16,1
-Average consumption | 7,7 l/100km
-Average consumption kms | 1 op 13,0
+performance:
+  top_speed_kmh: 178
+  acceleration:
+    0_100_kmh_s: 13.5
+  consumption:
+    urban:
+      l_per_100km: 10.4
+      kms: 1 op 9.6
+    extra_urban:
+      l_per_100km: 6.2
+      kms: 1 op 16.1
+    average:
+      l_per_100km: 7.7
+      kms: 1 op 13.0
 
 # Chassis
-caracteristic | value
--- | --
-Front suspension | independent, McPherson
-Rear suspension | independent, wishbone
-Front shocks | coil springs
-Rear shocks | torsion bar
-Front stabilizer | yes
-Rear stabilizer | yes
-Front Brakes | ventilated disc, 247 mm
-Rear Brakes | trommels
-Front tire size | 185/65HR14
-Rear tire size | 185/65HR14
-Turning circle | 10,9 m
+chassis:
+  front_suspension: independent, McPherson
+  rear_suspension: independent, wishbone
+  front_shocks: coil springs
+  rear_shocks: torsion bar
+  front_stabilizer: yes
+  rear_stabilizer: yes
+  front_Brakes: ventilated disc, 247 mm
+  rear_Brakes: trommels
+  front_tire_size: 185/65HR14
+  rear_tire_size: 185/65HR14
+  turning_circle: 10,9 m
+---
 
 # Transmission - Gear ratio
 caracteristic | value
