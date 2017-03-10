@@ -77,141 +77,133 @@ chassis:
   front_tire_size: 185/65HR14
   rear_tire_size: 185/65HR14
   turning_circle: 10,9 m
----
 
 # Transmission - Gear ratio
-caracteristic | value
--- | --
-1th gear ratio | 3,42 | 1
-2th gear ratio | 1,81 | 1
-3th gear ratio | 1,28 | 1
-4th gear ratio | 0,98 | 1
-5th gear ratio | 0,77 | 1
-Reverse gear ratio | 3,58 | 1
-Final drive | 4,06 | 1
-RPM at 120 km/h (theoretical) | 3.350 rpm
+transmission:
+  gear_ratio:
+    1: 3.42
+    2: 1.81
+    3: 1.28
+    4: 0.98
+    5: 0.77
+    reverse: 3.58
+    final_drive: 4.06
+  rpm_at_120kmh: 3350
 
 # Security
-caracteristic | value
--- | --
-ABS | YES
-Electronic Brake Distribution (EBD) | NO
-Brake assistant | NO
-Emergency brake assist | NO
-Pre-crash system | NO
-Electronic Stability Program (ESP) | NO
-Traction control | NO
-Locking differential | NO
-Driver airbag | YES
-Passenger airbag | € 227
-Side airbags | € 318
-Head / curtain airbags | NO
+
+security:
+  abs: yes
+  electronic_brake_distribution: no
+  brake_assistant: no
+  emergency_brake_assist: no
+  pre_crash_system: no
+  electronic_stability_program: no
+  traction_control: no
+  locking_differential: no
+  airbags:
+    driver: yes
+    passenger: option
+    side: option
+    head_curtain: no
 
 # Interior
-caracteristic | value
--- | --
-Seat height adjustment | YES (driver)
-Lumbar support chair | NO
-Electric seat adjustment | NO
-Heated seats | NO
-Sport seats | YES
-Leather steering wheel | NO
-Adjustable steering wheel | YES
-Heated steering wheel | NO
-Leather seats | NO
-Rear headrests | YES
-Folding rear seat | YES (in parts)
-Sliding rear seat | NO
-Center armrest | NO
-Auto-dimming inside rearview mirror | NO
-Map light | YES (front)
-Lighted makeup mirror | NO
-Adjustable dashboard illumination | NO
-Tachometer | YES
-Day counter | YES
-Coolant ECT sensor | YES
-Outside temperature meter | NO
-Board Computer | NO
-Audio System | NO
-Digital radio | NO
-Steering wheel controls for audio | NO
-Audio input | NO
-Navigation system | NO
-Bluetooth | NO
+interior:
+  seat_height_adjustment: yes (driver)
+  lumbar_support_chair: no
+  electric_seat_adjustment: no
+  heated_seats: no
+  sport_seats: yes
+  leather_steering_wheel: no
+  adjustable_steering_wheel: yes
+  heated_steering_wheel: no
+  leather_seats: no
+  rear_headrests: yes
+  folding_rear_seat: yes (in parts)
+  sliding_rear_seat: no
+  center_armrest: no
+  auto_dimming_inside_rearview_mirror: no
+  map_light: yes (front)
+  lighted_makeup_mirror: no
+  adjustable_dashboard_illumination: no
+  tachometer: yes
+  day_counter: yes
+  coolant_ECT_sensor: yes
+  outside_temperature_meter: no
+  board_Computer: no
+  audio_System: no
+  digital_radio: no
+  steering_wheel_controls_for_audio: no
+  audio_input: no
+  navigation_system: no
+  bluetooth: no
+
 
 # Exterior
-caracteristic | value
--- | --
-Interval wiper | YES
-Alloy wheels | YES
-Sliding / tilt sunroof | € 699
-Panorama | NO
-Roof rails | NO
-Metallic paint | € 361
-Keyed bumpers | YES
-Tinted windows | YES
-Rear privacy glass | NO
-Electric mirrors | YES
-Folding door mirrors | NO
-Automatic dimming mirrors | NO
-Turn signal in mirrors | NO
-Fog lamps | YES
-Automatically turn on lights | NO
-Xenon headlights | NO
-LED headlights | NO
-LED rear lights | NO
-Daytime running light (DRL) | NO
-Headlight washers | NO
-Burglar alarm | NO
+exterior:
+  interval_wiper: yes
+  alloy_wheels: yes
+  sliding_tilt_sunroof: € 699
+  panorama: no
+  roof_rails: no
+  metallic_paint: € 361
+  keyed_bumpers: yes
+  tinted_windows: yes
+  rear_privacy_glass: no
+  electric_mirrors: yes
+  folding_door_mirrors: no
+  automatic_dimming_mirrors: no
+  turn_signal_in_mirrors: no
+  fog_lamps: yes
+  automatically_turn_on_lights: no
+  xenon_headlights: no
+  les_headlights: no
+  les_rear_lights: no
+  daytime_running_light: no
+  jeadlight_washers: no
+  burglar_alarm: no
 
 # Weights
-caracteristic | value
--- | --
-Empty mass | 1045 kg
-Max. loading capacity | 490 kg
-Max. permissible mass | 1535 kg
-Max. trailer mass braked | 1200 kg
-Max. roof load | 75 kg
+weight:
+  empty_mass: 1045 kg
+  max_loading_capacity: 490 kg
+  max_permissible_mass: 1535 kg
+  max_trailer_mass_braked: 1200 kg
+  max_roof_load: 75 kg
 
 # Baggage cargo
-caracteristic | value
--- | --
-Trunk capacity | 338-1146 l
+baggage_cargo:
+  trunk_capacity: 338-1146l
 
 # Exterior sizes
-caracteristic | value
--- | --
-Length | 4030 mm
-Width | 1680 mm
-Height | 1365 mm
-Wheelbase | 2580 mm
-Front track | 1454 mm
-Rear track | 1423 mm
-Ground clearance | 130 mm
-
-# Interior sizes
-caracteristic | value
--- | --
+sizes:
+  exterior:
+    length: 4030 mm
+    width: 1680 mm
+    height: 1365 mm
+    wheelbase: 2580 mm
+    front_track: 1454 mm
+    rear_track: 1423 mm
+    ground_clearance: 130 mm
 
 # Comfort
-caracteristic | value
--- | --
-Central door locking | YES
-Keyless entry/start | YES
-Electric windows | YES(front)
-Power steering | YES
-Cruise control | NO
-Air conditioning | € 1.293
-Dual zone climatronic | NO
-Parking sensors | NO
-Rear camera | NO
-Automatic parking | NO
-Electric parking brake | NO
-Start / stop system | NO
+comfort:
+  central_door_locking: yes
+  keyless_entry_start: yes
+  electric_windows: yes (front)
+  power_steering: yes
+  cruise_control: no
+  air_conditioning: € 1.293
+  dual_zone_climatronic: no
+  parking_sensors: no
+  rear_camera: no
+  automatic_parking: no
+  electric_parking_brake: no
+  start_stop_system: no
 
 # Service warranty
-caracteristic | value
--- | --
-Maintenance | 10.000 km / 1 year
-General warranty | 1 year, unlimited
-Carbody warranty | 6 years
+warranty:
+  maintenance: 10.000 km / 1 year
+  general_warranty: 1 year, unlimited
+  carbody_warranty: 6 years
+---
