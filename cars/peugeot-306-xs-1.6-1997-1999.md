@@ -10,7 +10,6 @@ year_to: 1999
 ---
 
 # General Specifications
-
 | caracteristic       | value     |
 |---------------------|-----------|
 | Last new price      | € 15.424  |
@@ -22,31 +21,31 @@ year_to: 1999
 | End year            | 1999      |
 
 # Drive
-caracteristic | value
--- | --
-Wheel drive | front
-Engine type | fuel engine
-Fuel | petrol
-Total max power | 66 Kw (90 Hp)
-Total max torque | 135 Nm
+| caracteristic    | value         |
+|------------------|---------------|
+| Wheel drive      | front         |
+| Engine type      | fuel engine   |
+| Fuel             | petrol        |
+| Total max power  | 66 Kw (90 Hp) |
+| Total max torque | 135 Nm        |
 
 # Fuel engine
-caracteristic | value
--- | --
-Cylinders | 4, in line
-Valves per cylinder | 2
-Displacement | 1587 cc
-Bore x stroke | 78,5 x 82,0 mm
-Compression ratio | 9,6  | 1
-Max power | 66 kW (90 hp)
-Max power @ rpm | 5600 rpm
-Max torque | 135 Nm
-Max torque @ rpm | 3000 rpm
-Fuel delivery | multipoint injection
-Engine type | ohc
-Turbo | no
-Catalyst | regular
-Fuel tank | 60 l
+| caracteristic       | value                |
+|---------------------|----------------------|
+| Cylinders           | 4, in line           |
+| Valves per cylinder | 2                    |
+| Displacement        | 1587 cc              |
+| Bore x stroke       | 78,5 x 82,0 mm       |
+| Compression ratio   | 9,6 / 1              |
+| Max power           | 66 kW (90 hp)        |
+| Max power @ rpm     | 5600 rpm             |
+| Max torque          | 135 Nm               |
+| Max torque @ rpm    | 3000 rpm             |
+| Fuel delivery       | multipoint injection |
+| Engine type         | ohc                  |
+| Turbo               | no                   |
+| Catalyst            | regular              |
+| Fuel tank           | 60 l                 |
 
 # Electric engine
 caracteristic | value
