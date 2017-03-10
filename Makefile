@@ -1,3 +1,7 @@
+.PHONY: serve
+serve:
+	jekyll serve
+
 .PHONY: build
 build:
 	jekyll build
