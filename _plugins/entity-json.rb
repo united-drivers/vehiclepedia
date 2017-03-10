@@ -41,9 +41,7 @@ module Jekyll
         ['dir', 'layout', 'path', 'url', 'name'].each do |key|
           output.delete(key)
         end
-        if output["content"].empty?
-          output.delete("content")
-        end
+        output.delete("content")
         entities[kind][name] = output
       end
 
