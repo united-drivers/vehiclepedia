@@ -4,10 +4,6 @@
   </head>
   <body>
     <h1><a href="/brands/{{page.brand}}">{{page.brand}}</a> > {{ page.title }}</h1>
-    <ul>
-      {% for entry in page %}{% if entry[0] != "content" %}
-      <li>{{entry[0]}}: {{entry[1]}}</li>
-      {% endif %}{% endfor %}
-    </ul>
+    {% include attributes_tree.html tree=page level=0 %}
   </body>
 </html>

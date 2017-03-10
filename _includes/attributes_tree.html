@@ -1,0 +1,17 @@
+{% if include.tree.size > 0 %}
+<ul class="level-{{include.level}}">
+  {% for item in include.tree %}
+  {% if item[0] == "content" or item[0] == "dir" or item[0] == "path" or item[0] == "url" or item[0] == "name" or item[0] == "layout" %}{% continue %}{% endif %}
+  <li>
+    <b>{{ item[0] }}</b>:
+    {% if item[1].first.size > 0 %}
+    {% assign next_level = include.level | plus: 1 %}
+    {% assign next_tree = item[1] %}
+    {% include attributes_tree.html tree=next_tree level=next_level %}
+    {% else %}
+    {{ item[1] }}
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
