@@ -1,0 +1,4 @@
+jekyll_tidy:
+  compress_html: false
+
+gems: [jekyll-tidy]
