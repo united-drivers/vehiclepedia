@@ -1,7 +1,16 @@
 ---
 layout: default
 ---
-<h1><a href="/brands/">Brands</a> > <a href="/brands/{{page.brand}}">{{page.brand}}</a> > {{ page.title }} <small>- <a href="https://github.com/united-drivers/vehiclepedia/edit/master/{{page.path}}" title="Edit on GitHub">edit</a></small></h1>
+<h1>
+  <a href="/brands/">Brands</a>
+  →
+  <a href="/brands/{{page.brand}}">{{page.brand}}</a>
+  →
+  {{ page.title }}
+  <small>
+    (<a href="https://github.com/united-drivers/vehiclepedia/edit/master/{{page.path}}" title="Edit on GitHub">edit</a>, json)
+  </small>
+</h1>
 
 <h2>Specifications</h2>
 {% include attributes_tree.html tree=page level=0 %}
