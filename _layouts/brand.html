@@ -1,23 +1,19 @@
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <h1><a href="/brands/">Brands</a> > {{ page.title }}</h1>
+---
+layout: default
+---
+<h1><a href="/brands/">Brands</a> > {{ page.title }}</h1>
 
-    <h2>Specifications</h2>
-    {% include attributes_tree.html tree=page level=0 %}
+<h2>Specifications</h2>
+{% include attributes_tree.html tree=page level=0 %}
 
-    <h2>Cars</h2>
-    <ul>
-      {% for entry in site.pages %}
-      {% if entry.layout == "car"  %}
+<h2>Cars</h2>
+<ul>
+  {% for entry in site.pages %}
+    {% if entry.layout == "car"  %}
       {% capture tmp %}{{entry.brand}}.md{% endcapture %}
       {% if tmp == page.name %}
-      <li><a href="{{entry.url}}">{{entry.title}}</a></li>
+        <li><a href="{{entry.url}}">{{entry.title}}</a></li>
       {% endif %}
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </body>
-</html>
+    {% endif %}
+  {% endfor %}
+</ul>
