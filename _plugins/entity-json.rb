@@ -32,6 +32,10 @@ module Jekyll
       dest = site.config["destination"]
 
       site.pages.each do |page|
+        if page["url"] == "/"
+          next
+        end
+
         kind = page["url"].split("/")[1]
         name = page.name.split(".")[0]
         if not entities.key?(kind)
