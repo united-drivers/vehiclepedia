@@ -1,5 +1,6 @@
 ---
 layout: listing
+title: Cars
 ---
 <ul>
   {% for page in site.pages %}

@@ -1,5 +1,6 @@
 ---
 layout: listing
+title: Brands
 ---
 <ul>
   {% for page in site.pages %}
