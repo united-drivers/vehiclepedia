@@ -1,5 +1,5 @@
 ---
 layout: car
-title: Civic Insight
+title: Insight
 brand: honda
 ---
