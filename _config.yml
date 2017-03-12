@@ -1,4 +1,34 @@
+title: Vehiclepedia
+email: staff@united-drivers.org
+
+
 jekyll_tidy:
   compress_html: false
 
-gems: [jekyll-tidy]
+gems:
+  - jekyll-tidy
+  - algoliasearch-jekyll
+
+algolia:
+  application_id: 04FUY5Q1FI
+  index_name: jekyll
+  record_css_selector: 'p,ul,li,figure,tr,div,b,span,a,h1'
+  excluded_files:
+    - 404.html
+    - search.html
+  settings:
+    attributesToIndex:
+      - title
+      - name
+      - h1
+      - h2
+      - h3
+      - h4
+      - h5
+      - h6
+      - brand
+      - unordered(text)
+      - unordered(tags)
+    attributeForDistinct: 'hierarchy'
+    distinct: true
+    attributesToSnippet: ['text:20']
