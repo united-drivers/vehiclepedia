@@ -37,6 +37,9 @@ module Jekyll
         end
 
         kind = page["url"].split("/")[1]
+        if kind == "search.html"
+          next
+        end
         name = page.name.split(".")[0]
         if name == "index"
           next
@@ -53,7 +56,7 @@ module Jekyll
       end
 
       entities.each do |kind, entries|
-        site.pages << JSONPage.new(site, site.source, "/", kind+".json", JSON.pretty_generate(entries))
+        site.pages << JSONPage.new(site, site.source, "/api/", kind+".json", JSON.pretty_generate(entries))
       end
     end
   end
