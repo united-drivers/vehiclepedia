@@ -38,6 +38,9 @@ module Jekyll
 
         kind = page["url"].split("/")[1]
         name = page.name.split(".")[0]
+        if name == "index"
+          next
+        end
         if not entities.key?(kind)
           entities[kind] = {}
         end
