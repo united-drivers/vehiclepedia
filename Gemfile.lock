@@ -37,6 +37,8 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-seo-tag (2.1.0)
+      jekyll (~> 3.3)
     jekyll-tidy (0.2.2)
       htmlbeautifier
       htmlcompressor
@@ -73,6 +75,7 @@ PLATFORMS
 DEPENDENCIES
   algoliasearch-jekyll (~> 0.8.0)
   jekyll (= 3.4.0)
+  jekyll-seo-tag
   jekyll-tidy
   rack (~> 1.6.0)
 

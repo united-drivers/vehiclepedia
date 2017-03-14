@@ -8,6 +8,7 @@ jekyll_tidy:
 gems:
   - jekyll-tidy
   - algoliasearch-jekyll
+  - jekyll-seo-tag
 
 algolia:
   application_id: 04FUY5Q1FI
