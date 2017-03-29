@@ -45,6 +45,10 @@ module Jekyll
         kind = page['layout']
         name = page.url.split("/")[-1]
 
+        if page['layout'] == "car"
+          name = page['brand'] + "-" + name
+        end
+
         if not entities.key?(kind)
           entities[kind] = {}
         end
