@@ -32,18 +32,19 @@ module Jekyll
       dest = site.config["destination"]
 
       site.pages.each do |page|
-        if page["url"] == "/"
+        ignore = false
+        ['listing', 'search', 'default'].each do |kind|
+          if page['layout'] == kind
+            ignore = true
+          end
+        end
+        if ignore
           next
         end
 
-        kind = page["url"].split("/")[1]
-        if kind == "search.html"
-          next
-        end
-        name = page.name.split(".")[0]
-        if name == "index"
-          next
-        end
+        kind = page['layout']
+        name = page.url.split("/")[-1]
+
         if not entities.key?(kind)
           entities[kind] = {}
         end
@@ -56,7 +57,7 @@ module Jekyll
       end
 
       entities.each do |kind, entries|
-        site.pages << JSONPage.new(site, site.source, "/api/", kind+".json", JSON.pretty_generate(entries))
+        site.pages << JSONPage.new(site, site.source, "/api/", kind+"s.json", JSON.pretty_generate(entries))
       end
     end
   end

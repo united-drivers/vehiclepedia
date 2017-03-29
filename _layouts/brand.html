@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>
-  <a href="/brands/">Brands</a>
+  <a href="/wiki/">Wiki</a>
   →
   {{ page.title }}
   <small>
@@ -17,8 +17,8 @@ layout: default
 <ul>
   {% for entry in site.pages %}
     {% if entry.layout == "car"  %}
-      {% capture tmp %}{{entry.brand}}.md{% endcapture %}
-      {% if tmp == page.name %}
+      {% capture tmp %}/wiki/{{entry.brand}}/{% endcapture %}
+      {% if tmp == page.url %}
         <li><a href="{{entry.url}}">{{entry.title}}</a></li>
       {% endif %}
     {% endif %}

@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-{% assign brand_url = "/brands/" | append: page.brand | append: ".html" %}
+{% assign brand_url = "/wiki/" | append: page.brand | append: "/" %}
 {% assign_page brand = brand_url %}
 <h1>
-  <a href="/brands/">Brands</a>
+  <a href="/wiki/">Wiki</a>
   →
-  <a href="/brands/{{page.brand}}">{{brand.title}}</a>
+  <a href="{{brand.url}}">{{brand.title}}</a>
   →
   {{ page.title }}
   <small>
