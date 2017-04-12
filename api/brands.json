@@ -1,0 +1,96 @@
+{
+  "audi": {
+    "title": "Audi"
+  },
+  "bmw": {
+    "title": "BMW"
+  },
+  "byd": {
+    "title": "BYD"
+  },
+  "chevrolet": {
+    "title": "Chevrolet"
+  },
+  "chrysler": {
+    "title": "Chrysler"
+  },
+  "citroen": {
+    "title": "Citroën"
+  },
+  "fiat": {
+    "title": "Fiat",
+    "country": "it"
+  },
+  "ford": {
+    "title": "Ford",
+    "founded": "June 16, 1903",
+    "website": "www.ford.com",
+    "country": "us"
+  },
+  "honda": {
+    "title": "Honda"
+  },
+  "hyundai": {
+    "title": "Hyundai"
+  },
+  "infiniti": {
+    "title": "Infiniti"
+  },
+  "jaguar": {
+    "title": "Jaguar"
+  },
+  "kia": {
+    "title": "Kia"
+  },
+  "lancia": {
+    "title": "Lancia"
+  },
+  "lexus": {
+    "title": "Lexus"
+  },
+  "mazda": {
+    "title": "Mazda"
+  },
+  "mercedes": {
+    "title": "Mercedes"
+  },
+  "nissan": {
+    "title": "Nissan"
+  },
+  "opel": {
+    "title": "Opel"
+  },
+  "peugeot": {
+    "title": "Peugeot",
+    "country": "fr"
+  },
+  "porsche": {
+    "title": "Porsche"
+  },
+  "alfa-romeo": {
+    "title": "Alfa Romeo"
+  },
+  "renault": {
+    "title": "Renault",
+    "country": "fr"
+  },
+  "seat": {
+    "title": "Seat"
+  },
+  "skoda": {
+    "title": "Skoda"
+  },
+  "tesla": {
+    "title": "Tesla",
+    "country": "us"
+  },
+  "toyota": {
+    "title": "Toyota"
+  },
+  "volkswagen": {
+    "title": "Volkswagen"
+  },
+  "volvo": {
+    "title": "Volvo"
+  }
+}

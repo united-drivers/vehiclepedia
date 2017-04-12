@@ -1,0 +1,758 @@
+{
+  "renault-laguna-estate": {
+    "title": "Laguna Estate",
+    "brand": "renault"
+  },
+  "audi-a4-avant": {
+    "title": "A4 Avant",
+    "brand": "audi"
+  },
+  "audi-a5": {
+    "title": "A5",
+    "brand": "audi"
+  },
+  "audi-a5-avant": {
+    "title": "A5 Avant",
+    "brand": "audi"
+  },
+  "audi-a6": {
+    "title": "A6",
+    "brand": "audi"
+  },
+  "audi-a7": {
+    "title": "A7",
+    "brand": "audi"
+  },
+  "audi-a8": {
+    "title": "A8",
+    "brand": "audi"
+  },
+  "bmw-serie-2-gt": {
+    "title": "Serie 2 GT",
+    "brand": "bmw"
+  },
+  "bmw-serie-3": {
+    "title": "Serie 3",
+    "brand": "bmw"
+  },
+  "bmw-serie-3-break": {
+    "title": "Serie 3 Break",
+    "brand": "bmw"
+  },
+  "bmw-serie-3-gt": {
+    "title": "Serie 3 GT",
+    "brand": "bmw"
+  },
+  "bmw-serie-4-gran-coupe": {
+    "title": "Serie 4 Gran Coupe",
+    "brand": "bmw"
+  },
+  "bmw-serie-5": {
+    "title": "Serie 5",
+    "brand": "bmw"
+  },
+  "bmw-serie-5gt": {
+    "title": "Serie 5GT",
+    "brand": "bmw"
+  },
+  "bmw-serie-7": {
+    "title": "Serie 7",
+    "brand": "bmw"
+  },
+  "bmw-x3": {
+    "title": "X3",
+    "brand": "bmw"
+  },
+  "byd-e6": {
+    "title": "e6",
+    "brand": "byd"
+  },
+  "chevrolet-captiva": {
+    "title": "Captiva",
+    "brand": "chevrolet"
+  },
+  "chevrolet-cruze": {
+    "title": "Cruze",
+    "brand": "chevrolet"
+  },
+  "chevrolet-cruze-break": {
+    "title": "Cruze Break",
+    "brand": "chevrolet"
+  },
+  "chevrolet-malibu": {
+    "title": "Malibu",
+    "brand": "chevrolet"
+  },
+  "chevrolet-orlando": {
+    "title": "Orlandi",
+    "brand": "chevrolet"
+  },
+  "chevrolet-volt": {
+    "title": "Volt",
+    "brand": "chevrolet"
+  },
+  "chrysler-300c": {
+    "title": "300C",
+    "brand": "chrysler"
+  },
+  "chrysler-grand-voyager": {
+    "title": "Grand Voyager",
+    "brand": "chrysler"
+  },
+  "citroen-c5": {
+    "title": "C5",
+    "brand": "citroen"
+  },
+  "citroen-c5-break": {
+    "title": "C5 break",
+    "brand": "citroen"
+  },
+  "citroen-c6": {
+    "title": "C6",
+    "brand": "citroen"
+  },
+  "citroen-c8": {
+    "title": "C8",
+    "brand": "citroen"
+  },
+  "citroen-ds5": {
+    "title": "DS5",
+    "brand": "citroen"
+  },
+  "citroen-ds5-hybrid": {
+    "title": "DS5 hybrid",
+    "brand": "citroen"
+  },
+  "citroen-grand-picasso": {
+    "title": "Grand Picasso",
+    "brand": "citroen"
+  },
+  "fiat-tipo": {
+    "title": "Tipo",
+    "brand": "fiat"
+  },
+  "fiat-tipo-berline": {
+    "title": "Tipo Berline",
+    "brand": "fiat"
+  },
+  "fiat-tipo-station-wagon": {
+    "title": "Tipo Station Wagon",
+    "brand": "fiat"
+  },
+  "ford-focus-break": {
+    "title": "Focus break",
+    "brand": "ford"
+  },
+  "ford-focus-sw": {
+    "title": "Focus SW",
+    "brand": "ford"
+  },
+  "ford-galaxy": {
+    "title": "Galaxy",
+    "brand": "ford"
+  },
+  "ford-grand-c-max": {
+    "title": "Grand C-Max",
+    "brand": "ford"
+  },
+  "ford-kuga": {
+    "title": "Kuga",
+    "brand": "ford"
+  },
+  "ford-mondeo": {
+    "title": "Mondéo",
+    "brand": "ford"
+  },
+  "ford-mondeo-break": {
+    "title": "Mondéo Break",
+    "brand": "ford"
+  },
+  "ford-mondeo-sw": {
+    "title": "Mondéo SW",
+    "brand": "ford"
+  },
+  "ford-s-max": {
+    "title": "S-Max",
+    "brand": "ford"
+  },
+  "honda-accord": {
+    "title": "Accord",
+    "brand": "honda"
+  },
+  "honda-accord-tourer": {
+    "title": "Accord Tourer",
+    "brand": "honda"
+  },
+  "honda-civic-tourer": {
+    "title": "Civic Tourer",
+    "brand": "honda"
+  },
+  "honda-insight": {
+    "title": "Insight",
+    "brand": "honda"
+  },
+  "hyundai-i40": {
+    "title": "i40",
+    "brand": "hyundai"
+  },
+  "hyundai-i40-sw": {
+    "title": "i40 SW",
+    "brand": "hyundai"
+  },
+  "hyundai-ioniq": {
+    "title": "Ioniq",
+    "brand": "hyundai"
+  },
+  "infiniti-m": {
+    "title": "M",
+    "brand": "infiniti"
+  },
+  "infiniti-q50": {
+    "title": "Q50",
+    "brand": "infiniti"
+  },
+  "infiniti-q70": {
+    "title": "Q70",
+    "brand": "infiniti"
+  },
+  "jaguar-xe": {
+    "title": "XE",
+    "brand": "jaguar"
+  },
+  "jaguar-xf": {
+    "title": "XF",
+    "brand": "jaguar"
+  },
+  "jaguar-xj": {
+    "title": "XJ",
+    "brand": "jaguar"
+  },
+  "kia-carens": {
+    "title": "Carens",
+    "brand": "kia"
+  },
+  "kia-carens-cee-d-sw": {
+    "title": "Carens Cee'd SW",
+    "brand": "kia"
+  },
+  "kia-nira-hybrid": {
+    "title": "Niro Hybrid",
+    "brand": "kia"
+  },
+  "kia-optima": {
+    "title": "Optima",
+    "brand": "kia"
+  },
+  "kia-optima-hybrid": {
+    "title": "Optima Hybrid",
+    "brand": "kia"
+  },
+  "kia-optima-sw": {
+    "title": "Optima SW",
+    "brand": "kia"
+  },
+  "kia-sportage": {
+    "title": "Sportage",
+    "brand": "kia"
+  },
+  "lancia-thema": {
+    "title": "Thema",
+    "brand": "lancia"
+  },
+  "lancia-voyager": {
+    "title": "Voyager",
+    "brand": "lancia"
+  },
+  "lexus-450h": {
+    "title": "450H",
+    "brand": "lexus"
+  },
+  "lexus-gs": {
+    "title": "GS",
+    "brand": "lexus"
+  },
+  "lexus-is": {
+    "title": "IS",
+    "brand": "lexus"
+  },
+  "lexus-is300h": {
+    "title": "IS300H",
+    "brand": "lexus"
+  },
+  "lexus-ls": {
+    "title": "LS",
+    "brand": "lexus"
+  },
+  "mazda-3-berline": {
+    "title": "3 Berline",
+    "brand": "mazda"
+  },
+  "mazda-5": {
+    "title": 5,
+    "brand": "mazda"
+  },
+  "mazda-6": {
+    "title": 6,
+    "brand": "mazda"
+  },
+  "mazda-6-break": {
+    "title": "6 Break",
+    "brand": "mazda"
+  },
+  "mercedes-cla": {
+    "title": "CLA",
+    "brand": "mercedes"
+  },
+  "mercedes-class-c": {
+    "title": "Class C",
+    "brand": "mercedes"
+  },
+  "mercedes-class-c-break": {
+    "title": "Class C Break",
+    "brand": "mercedes"
+  },
+  "mercedes-class-r": {
+    "title": "Class R",
+    "brand": "mercedes"
+  },
+  "mercedes-class-s": {
+    "title": "Class S",
+    "brand": "mercedes"
+  },
+  "mercedes-class-v": {
+    "title": "Class V",
+    "brand": "mercedes"
+  },
+  "mercedes-cls": {
+    "title": "CLS",
+    "brand": "mercedes"
+  },
+  "mercedes-viano": {
+    "title": "Viano",
+    "brand": "mercedes"
+  },
+  "nissan-leaf": {
+    "title": "Leaf",
+    "brand": "nissan"
+  },
+  "nissan-x-trail": {
+    "title": "X-TRAIL",
+    "brand": "nissan"
+  },
+  "opel-ampera": {
+    "title": "Ampera",
+    "brand": "opel"
+  },
+  "opel-astra-berline": {
+    "title": "Astra Berline",
+    "brand": "opel"
+  },
+  "opel-astra-tourer": {
+    "title": "Astra Tourer",
+    "brand": "opel"
+  },
+  "opel-insignia": {
+    "title": "Insignia",
+    "brand": "opel"
+  },
+  "opel-insignia-tourer": {
+    "title": "Insignia Tourer",
+    "brand": "opel"
+  },
+  "opel-zafira": {
+    "title": "Zafira",
+    "brand": "opel"
+  },
+  "peugeot-306-xs-1.6-1997-1999": {
+    "brand": "peugeot",
+    "title": "306-xs-1.6-1997-1999",
+    "model": 306,
+    "version": "xs",
+    "engine": {
+      "cylinders": {
+        "quantity": 4,
+        "type": "inline"
+      },
+      "valves_per_cylinder": 2,
+      "displacement": {
+        "cc": 1587
+      },
+      "bore_x_stroke": "78,5 x 82,0mm",
+      "compression_ratio": "9,6 / 1",
+      "max_power": {
+        "kw": 66,
+        "hp": 90,
+        "rpm": 5600
+      },
+      "max_torque": {
+        "nm": 135,
+        "rpm": 3000
+      },
+      "fuel_delivery": "multipoint injection",
+      "type": "ohc",
+      "turbo": false,
+      "catalyst": "regular",
+      "fuel_tank": {
+        "l": 60
+      }
+    },
+    "history": {
+      "production": {
+        "from": 1997,
+        "to": 1999
+      }
+    },
+    "doors": 3,
+    "seating_capacity": 5,
+    "transmission_type": "manual",
+    "carbody": "hatchback",
+    "last_new_price": {
+      "eur": 15424
+    },
+    "wheel_drive": "front",
+    "engine_type": "fuel",
+    "fuel": "petrol",
+    "performance": {
+      "top_speed_kmh": 178,
+      "acceleration": {
+        "0_100_kmh_s": 13.5
+      },
+      "consumption": {
+        "urban": {
+          "l_per_100km": 10.4,
+          "kms": "1 op 9.6"
+        },
+        "extra_urban": {
+          "l_per_100km": 6.2,
+          "kms": "1 op 16.1"
+        },
+        "average": {
+          "l_per_100km": 7.7,
+          "kms": "1 op 13.0"
+        }
+      }
+    },
+    "chassis": {
+      "front_suspension": "independent, McPherson",
+      "rear_suspension": "independent, wishbone",
+      "front_shocks": "coil springs",
+      "rear_shocks": "torsion bar",
+      "front_stabilizer": true,
+      "rear_stabilizer": true,
+      "front_Brakes": "ventilated disc, 247 mm",
+      "rear_Brakes": "trommels",
+      "front_tire_size": "185/65HR14",
+      "rear_tire_size": "185/65HR14",
+      "turning_circle": "10,9 m"
+    },
+    "transmission": {
+      "gear_ratio": {
+        "1": 3.42,
+        "2": 1.81,
+        "3": 1.28,
+        "4": 0.98,
+        "5": 0.77,
+        "reverse": 3.58,
+        "final_drive": 4.06
+      },
+      "rpm_at_120kmh": 3350
+    },
+    "security": {
+      "abs": true,
+      "electronic_brake_distribution": false,
+      "brake_assistant": false,
+      "emergency_brake_assist": false,
+      "pre_crash_system": false,
+      "electronic_stability_program": false,
+      "traction_control": false,
+      "locking_differential": false,
+      "airbags": {
+        "driver": true,
+        "passenger": "option",
+        "side": "option",
+        "head_curtain": false
+      }
+    },
+    "interior": {
+      "seat_height_adjustment": "yes (driver)",
+      "lumbar_support_chair": false,
+      "electric_seat_adjustment": false,
+      "heated_seats": false,
+      "sport_seats": true,
+      "leather_steering_wheel": false,
+      "adjustable_steering_wheel": true,
+      "heated_steering_wheel": false,
+      "leather_seats": false,
+      "rear_headrests": true,
+      "folding_rear_seat": "yes (in parts)",
+      "sliding_rear_seat": false,
+      "center_armrest": false,
+      "auto_dimming_inside_rearview_mirror": false,
+      "map_light": "yes (front)",
+      "lighted_makeup_mirror": false,
+      "adjustable_dashboard_illumination": false,
+      "tachometer": true,
+      "day_counter": true,
+      "coolant_ECT_sensor": true,
+      "outside_temperature_meter": false,
+      "board_Computer": false,
+      "audio_System": false,
+      "digital_radio": false,
+      "steering_wheel_controls_for_audio": false,
+      "audio_input": false,
+      "navigation_system": false,
+      "bluetooth": false
+    },
+    "exterior": {
+      "interval_wiper": true,
+      "alloy_wheels": true,
+      "sliding_tilt_sunroof": "€ 699",
+      "panorama": false,
+      "roof_rails": false,
+      "metallic_paint": "€ 361",
+      "keyed_bumpers": true,
+      "tinted_windows": true,
+      "rear_privacy_glass": false,
+      "electric_mirrors": true,
+      "folding_door_mirrors": false,
+      "automatic_dimming_mirrors": false,
+      "turn_signal_in_mirrors": false,
+      "fog_lamps": true,
+      "automatically_turn_on_lights": false,
+      "xenon_headlights": false,
+      "les_headlights": false,
+      "les_rear_lights": false,
+      "daytime_running_light": false,
+      "jeadlight_washers": false,
+      "burglar_alarm": false
+    },
+    "weight": {
+      "empty_mass": "1045 kg",
+      "max_loading_capacity": "490 kg",
+      "max_permissible_mass": "1535 kg",
+      "max_trailer_mass_braked": "1200 kg",
+      "max_roof_load": "75 kg"
+    },
+    "baggage_cargo": {
+      "trunk_capacity": "338-1146l"
+    },
+    "sizes": {
+      "exterior": {
+        "length": "4030 mm",
+        "width": "1680 mm",
+        "height": "1365 mm",
+        "wheelbase": "2580 mm",
+        "front_track": "1454 mm",
+        "rear_track": "1423 mm",
+        "ground_clearance": "130 mm"
+      }
+    },
+    "comfort": {
+      "central_door_locking": true,
+      "keyless_entry_start": true,
+      "electric_windows": "yes (front)",
+      "power_steering": true,
+      "cruise_control": false,
+      "air_conditioning": "€ 1.293",
+      "dual_zone_climatronic": false,
+      "parking_sensors": false,
+      "rear_camera": false,
+      "automatic_parking": false,
+      "electric_parking_brake": false,
+      "start_stop_system": false
+    },
+    "warranty": {
+      "maintenance": "10.000 km / 1 year",
+      "general_warranty": "1 year, unlimited",
+      "carbody_warranty": "6 years"
+    }
+  },
+  "peugeot-308-sw": {
+    "title": "308 SW",
+    "brand": "peugeot"
+  },
+  "peugeot-5008": {
+    "title": 5008,
+    "brand": "peugeot"
+  },
+  "peugeot-508": {
+    "title": 508,
+    "brand": "peugeot"
+  },
+  "peugeot-508-hybrid": {
+    "title": "508 Hybrid",
+    "brand": "peugeot"
+  },
+  "peugeot-508-rxh": {
+    "title": "508 RXH",
+    "brand": "peugeot"
+  },
+  "peugeot-508-sw": {
+    "title": "508 SW",
+    "brand": "peugeot"
+  },
+  "porsche-panamera": {
+    "title": "Panamera",
+    "brand": "porsche"
+  },
+  "renault-espace": {
+    "title": "Espace",
+    "brand": "renault"
+  },
+  "renault-fluence": {
+    "title": "Fluence",
+    "brand": "renault"
+  },
+  "renault-grand-scenic": {
+    "title": "Grand Scenic",
+    "brand": "renault"
+  },
+  "renault-laguna": {
+    "title": "Laguna",
+    "brand": "renault"
+  },
+  "audi-a4": {
+    "title": "A4",
+    "brand": "audi"
+  },
+  "renault-megane-estate": {
+    "title": "Megane Estate",
+    "brand": "renault"
+  },
+  "renault-talisman": {
+    "title": "Talisman",
+    "brand": "renault"
+  },
+  "seat-alhambra": {
+    "title": "Alhambra",
+    "brand": "seat"
+  },
+  "seat-leon-st": {
+    "title": "Leon ST",
+    "brand": "seat"
+  },
+  "skoda-octavia": {
+    "title": "Octavia",
+    "brand": "skoda"
+  },
+  "skoda-octavia-combi": {
+    "title": "Octavia Combi",
+    "brand": "skoda"
+  },
+  "skoda-scout": {
+    "title": "Scout",
+    "brand": "skoda"
+  },
+  "skoda-superb": {
+    "title": "Superb",
+    "brand": "skoda"
+  },
+  "skoda-superb-combi": {
+    "title": "Superb Combi",
+    "brand": "skoda"
+  },
+  "tesla-model-3": {
+    "title": "Model 3",
+    "brand": "tesla"
+  },
+  "tesla-model-s": {
+    "title": "Model S",
+    "brand": "tesla"
+  },
+  "tesla-model-x": {
+    "title": "Model X",
+    "brand": "tesla"
+  },
+  "toyota-auris-touring-sports": {
+    "title": "Auris Touring Sports",
+    "brand": "toyota"
+  },
+  "toyota-auris-touring-sports-hybrid": {
+    "title": "Auris Touring Sports Hybrid",
+    "brand": "toyota"
+  },
+  "toyota-avensis": {
+    "title": "Avensis",
+    "brand": "toyota"
+  },
+  "toyota-avensis-touring-sports": {
+    "title": "Avensis Touring Sports",
+    "brand": "toyota"
+  },
+  "toyota-prius": {
+    "title": "Prius",
+    "brand": "toyota"
+  },
+  "toyota-prius-plus": {
+    "title": "Prius +",
+    "brand": "toyota"
+  },
+  "toyota-verso": {
+    "title": "Verso",
+    "brand": "toyota"
+  },
+  "volkswagen-golf-alltrack": {
+    "title": "Golf Alltrack",
+    "brand": "volkswagen"
+  },
+  "volkswagen-golf-sw": {
+    "title": "Golf SW",
+    "brand": "volkswagen"
+  },
+  "volkswagen-jetta": {
+    "title": "Jetta",
+    "brand": "volkswagen"
+  },
+  "volkswagen-jetta-hybrid": {
+    "title": "Jetta Hybrid",
+    "brand": "volkswagen"
+  },
+  "volkswagen-multivan": {
+    "title": "MultiVan",
+    "brand": "volkswagen"
+  },
+  "volkswagen-passat": {
+    "title": "Passat",
+    "brand": "volkswagen"
+  },
+  "volkswagen-passat-cc": {
+    "title": "Passat CC",
+    "brand": "volkswagen"
+  },
+  "volkswagen-passat-sw": {
+    "title": "Passat SW",
+    "brand": "volkswagen"
+  },
+  "volkswagen-sharan": {
+    "title": "Sharan",
+    "brand": "volkswagen"
+  },
+  "volkswagen-touran-3": {
+    "title": "Touran 3",
+    "brand": "volkswagen"
+  },
+  "volvo-s60": {
+    "title": "S60",
+    "brand": "volvo"
+  },
+  "volvo-s80": {
+    "title": "S80",
+    "brand": "volvo"
+  },
+  "volvo-v60": {
+    "title": "V60",
+    "brand": "volvo"
+  },
+  "volvo-v70": {
+    "title": "V70",
+    "brand": "volvo"
+  },
+  "alfa-romeo-giulia": {
+    "title": "Giulia",
+    "brand": "alfa-romeo"
+  },
+  "renault-latitude": {
+    "title": "Latitude",
+    "brand": "renault"
+  }
+}
