@@ -1,4 +1,7 @@
 # vehiclepedia
+
+[![CircleCI](https://circleci.com/gh/united-drivers/vehiclepedia.svg?style=svg)](https://circleci.com/gh/united-drivers/vehiclepedia)
+
 :oncoming_automobile: collaborative vehicle (cars, bikes) database / encyclopedia
 
 * Powered by Jekyll and Markdown

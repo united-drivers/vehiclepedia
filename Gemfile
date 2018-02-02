@@ -8,3 +8,5 @@ group :jekyll_plugins do
   gem "jekyll-tidy"
   gem "jekyll-seo-tag"
 end
+
+gem 'html-proofer'

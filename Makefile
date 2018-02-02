@@ -9,6 +9,10 @@ deps:
 	#brew install bower
 	#bower install
 
+.PHONY: test
+test:
+	bundle exec htmlproofer ./_site --check-html --disable-external
+
 .PHONY: build
 build:
 	bundle exec jekyll build
