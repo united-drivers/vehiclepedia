@@ -6,11 +6,17 @@ dev: ./node_modules/.bin/hugo
 build:
 	npm run build
 
+.PHONY: minify
+minify:
+	npm run minify.html
+	npm run minify.css
+	npm run minify.js
+
 ./node_modules/.bin/hugo:
 	npm install
 
 .PHONY: deploy
-deploy: build
+deploy: build minify
 	cd public && git init
 	echo "vehiclepedia.united-drivers.org" > public/CNAME
 	touch public/.nojekyll

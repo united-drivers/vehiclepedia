@@ -1,7 +1,10 @@
 {
   "scripts": {
     "start": "hugo server -D",
-    "build": "hugo"
+    "build": "hugo",
+    "minify.html": "for file in `find public -name '*.html'`; do html-minifier --minify-js --minify-css --remove-optional-tags --collapse-whitespace --remove-redundant-attributes --remove-comments --html5 $file > $file.tmp && mv $file.tmp $file; done",
+    "minify.js": "for file in `find public -name '*.js'`; do uglifyjs $file > $file.tmp && mv $file.tmp $file; done",
+    "minify.css": "for file in `find public -name '*.css'`; do uglifycss $file > $file.tmp && mv $file.tmp $file; done"
   },
   "devDependencies": {
     "gulp-htmlmin": "^4.0.0",
