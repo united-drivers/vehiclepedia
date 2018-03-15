@@ -1,5 +1,5 @@
 ---
-layout: car
+type: car
 title: Giulia
 brand: alfa-romeo
 ---
