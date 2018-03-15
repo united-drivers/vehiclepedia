@@ -1,9 +1,11 @@
+DEPS = themes/docdock/README.md node_modules/.bin/hugo
+
 .PHONY: dev
-dev: ./node_modules/.bin/hugo
+dev: $(DEPS)
 	npm start
 
 .PHONY: build
-build:
+build: $(DEPS)
 	npm run build
 
 .PHONY: minify
@@ -12,8 +14,12 @@ minify:
 	npm run minify.css
 	npm run minify.js
 
-./node_modules/.bin/hugo:
+node_modules/.bin/hugo: package.json
 	npm install
+
+themes/docdock/README.md:
+	git submodule init
+	git submodule update
 
 .PHONY: deploy
 deploy: build minify
