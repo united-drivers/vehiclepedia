@@ -1,4 +1,4 @@
 ---
-layout: brand
+type: brand
 title: Audi
 ---
