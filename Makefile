@@ -1,29 +1,20 @@
-.PHONY: serve
-serve:
-	bundle exec jekyll serve
-
-.PHONY: deps
-deps:
-	npm install -g cloudflare-cli
-	bundle
-	#brew install bower
-	#bower install
-
-.PHONY: test
-test:
-	bundle exec htmlproofer ./_site --check-html --disable-external
+.PHONY: dev
+dev: ./node_modules/.bin/hugo
+	npm start
 
 .PHONY: build
 build:
-	bundle exec jekyll build
+	npm run build
+
+./node_modules/.bin/hugo:
+	npm install
 
 .PHONY: deploy
 deploy: build
-	cd _site && git init
-	echo "vehiclepedia.united-drivers.org" > _site/CNAME
-	touch _site/.nojekyll
-	cd _site && git add .
-	cd _site && git commit -am "Deploy"
-	cd _site && git push "git@github.com:united-drivers/vehiclepedia" "master:gh-pages" --force
-	cd _site && rm -rf .git
-	cfcli -d united-drivers.org purge || true
+	cd public && git init
+	echo "vehiclepedia.united-drivers.org" > public/CNAME
+	touch public/.nojekyll
+	cd public && git add .
+	cd public && git commit -am "Deploy"
+	cd public && git push "git@github.com:united-drivers/vehiclepedia" "master:gh-pages" --force
+	cd public && rm -rf .git

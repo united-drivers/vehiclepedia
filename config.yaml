@@ -1,0 +1,16 @@
+title: Vehiclepedia
+theme:
+baseURL: https://vehiclepedia.united-drivers.org/
+languageCode: en
+author:
+  name: United Drivers
+  email: contact@united-drivers.org
+  #logo
+
+params:
+  googleAnalytics: "UA-91920345-3"
+#  description: "An open-source, free and collaborative vehicles database"
+#  copyright: Unlicense.org
+#  title: Vehiclepedia
+#  subtitle: "An open-source, free and collaborative vehicles database"
+#  useSummaryIfNoDescription: true

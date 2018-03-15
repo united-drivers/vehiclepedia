@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "hugo server -D",
+    "build": "hugo"
+  },
+  "devDependencies": {
+    "gulp-htmlmin": "^4.0.0",
+    "hugo-bin": "^0.23.0",
+    "uglifycss": "0.0.28"
+  }
+}
