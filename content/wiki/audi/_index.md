@@ -1,4 +1,0 @@
----
-type: brand
-title: Audi
----
