@@ -1,0 +1,4 @@
+---
+title: Jinbei
+type: brand
+---

@@ -1,0 +1,4 @@
+---
+title: Lada
+type: brand
+---

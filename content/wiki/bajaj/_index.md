@@ -1,0 +1,4 @@
+---
+title: Bajaj
+type: brand
+---

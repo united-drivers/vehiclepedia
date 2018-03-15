@@ -1,0 +1,4 @@
+---
+title: Suzuki
+type: brand
+---

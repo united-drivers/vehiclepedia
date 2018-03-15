@@ -1,0 +1,4 @@
+---
+title: Luxgen
+type: brand
+---

@@ -1,0 +1,4 @@
+---
+title: Peugeot
+type: brand
+---

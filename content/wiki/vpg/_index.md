@@ -1,0 +1,4 @@
+---
+title: VPG
+type: brand
+---

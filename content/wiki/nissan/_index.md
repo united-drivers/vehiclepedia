@@ -1,0 +1,4 @@
+---
+title: Nissan
+type: brand
+---

@@ -1,0 +1,4 @@
+---
+title: Chrysler
+type: brand
+---

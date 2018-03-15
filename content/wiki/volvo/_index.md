@@ -1,0 +1,4 @@
+---
+title: Volvo
+type: brand
+---

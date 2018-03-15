@@ -1,0 +1,4 @@
+---
+title: RAM
+type: brand
+---

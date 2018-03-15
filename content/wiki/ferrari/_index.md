@@ -1,0 +1,4 @@
+---
+title: Ferrari
+type: brand
+---

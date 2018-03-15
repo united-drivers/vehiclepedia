@@ -1,0 +1,4 @@
+---
+title: Lincoln
+type: brand
+---

@@ -1,0 +1,4 @@
+---
+title: Foday
+type: brand
+---

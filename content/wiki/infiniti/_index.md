@@ -1,0 +1,4 @@
+---
+title: Infiniti
+type: brand
+---

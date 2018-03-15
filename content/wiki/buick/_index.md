@@ -1,0 +1,4 @@
+---
+title: Buick
+type: brand
+---

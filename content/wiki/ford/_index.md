@@ -1,0 +1,4 @@
+---
+title: Ford
+type: brand
+---

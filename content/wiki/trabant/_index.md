@@ -1,0 +1,4 @@
+---
+title: Trabant
+type: brand
+---

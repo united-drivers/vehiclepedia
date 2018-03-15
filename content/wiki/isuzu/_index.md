@@ -1,0 +1,4 @@
+---
+title: Isuzu
+type: brand
+---

@@ -1,0 +1,4 @@
+---
+title: Bugatti
+type: brand
+---

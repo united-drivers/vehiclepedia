@@ -1,0 +1,4 @@
+---
+title: Maserati
+type: brand
+---

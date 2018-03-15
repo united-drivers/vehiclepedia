@@ -1,0 +1,4 @@
+---
+title: Mazda
+type: brand
+---

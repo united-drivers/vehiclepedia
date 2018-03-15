@@ -1,0 +1,4 @@
+---
+title: Mini
+type: brand
+---

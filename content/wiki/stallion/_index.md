@@ -1,0 +1,4 @@
+---
+title: Stallion
+type: brand
+---

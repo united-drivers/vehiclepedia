@@ -1,0 +1,4 @@
+---
+title: Mahindra
+type: brand
+---

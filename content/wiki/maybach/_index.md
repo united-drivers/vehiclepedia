@@ -1,0 +1,4 @@
+---
+title: Maybach
+type: brand
+---

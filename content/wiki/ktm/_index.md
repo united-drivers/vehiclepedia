@@ -1,0 +1,4 @@
+---
+title: KTM
+type: brand
+---

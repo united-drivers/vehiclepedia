@@ -1,0 +1,4 @@
+---
+title: Hero
+type: brand
+---

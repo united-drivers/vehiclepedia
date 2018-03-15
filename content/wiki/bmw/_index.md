@@ -1,0 +1,4 @@
+---
+title: BMW
+type: brand
+---

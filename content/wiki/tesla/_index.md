@@ -1,0 +1,4 @@
+---
+title: Tesla
+type: brand
+---

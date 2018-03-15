@@ -1,0 +1,4 @@
+---
+title: Mitsubishi
+type: brand
+---

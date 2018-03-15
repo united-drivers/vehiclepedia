@@ -1,0 +1,4 @@
+---
+title: GMC
+type: brand
+---

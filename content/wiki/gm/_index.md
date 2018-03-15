@@ -1,0 +1,4 @@
+---
+title: GM
+type: brand
+---

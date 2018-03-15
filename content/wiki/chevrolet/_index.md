@@ -1,0 +1,4 @@
+---
+title: Chevrolet
+type: brand
+---

@@ -1,0 +1,5 @@
+---
+title: Haval M2
+type: car
+brand: great-wall
+---

@@ -1,0 +1,4 @@
+---
+title: Beneteau
+type: brand
+---

@@ -1,0 +1,4 @@
+---
+title: Koenigsegg
+type: brand
+---

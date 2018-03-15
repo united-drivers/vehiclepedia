@@ -1,0 +1,4 @@
+---
+title: Daihatsu
+type: brand
+---

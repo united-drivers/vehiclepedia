@@ -1,0 +1,4 @@
+---
+title: Toyota
+type: brand
+---

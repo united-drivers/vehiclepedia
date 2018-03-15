@@ -1,0 +1,4 @@
+---
+title: Seat
+type: brand
+---
