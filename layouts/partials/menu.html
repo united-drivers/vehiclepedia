@@ -37,7 +37,7 @@
 
         {{- if $showvisitedlinks}}<i class="fa fa-circle-thin read-icon"></i>{{end}}
       </div>
-      {{- if and (ne $numberOfPages 0) (.IsAncestor $currentNode) }}
+      {{- if and (ne $numberOfPages 0) (or (.IsAncestor $currentNode) (.Params.alwaysopen)) }}
         <ul>
           {{- .Scratch.Set "pages" .Pages }}
           {{- if .Sections}}

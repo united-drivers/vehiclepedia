@@ -1,0 +1,4 @@
+---
+title: Wiki
+alwaysopen: true
+---
