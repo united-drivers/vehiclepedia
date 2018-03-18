@@ -16,7 +16,7 @@ enableMissingTranslationPlaceholders: false
 editURL: "https://github.com/united-drivers/vehiclepedia/edit/master/content/"
 showVisitedLinks: true # default is false
 themeStyle: "flex" # "original" or "flex" # default "flex"
-themeVariant: "blue" # choose theme variant "green", "gold" , "gray", "blue" (default)
+themeVariant: "gold" # choose theme variant "green", "gold" , "gray", "blue" (default)
 #ordersectionsby: "weight" # ordersectionsby = "title" or "weight"
 ordersectionsby: title
 disableHomeIcon: false # default is false
@@ -65,4 +65,4 @@ params:
 #  copyright: Unlicense.org
 #  title: Vehiclepedia
 #  subtitle: "An open-source, free and collaborative vehicles database"
-#  useSummaryIfNoDescription: true# theme.toml template for a Hugo theme
+  useSummaryIfNoDescription: true
